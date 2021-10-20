@@ -6,5 +6,5 @@ import com.koleszar.coinchecker.data.remote.dto.CoinDto
 interface CoinPaprikaApi {
     suspend fun getCoins() : List<CoinDto>
 
-    suspend fun getCoinById(id : String) : CoinDetailDto?
+    suspend fun getCoinById(id : String) : CoinDetailDto
 }
